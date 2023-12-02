@@ -1,0 +1,97 @@
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Alegreya Sans', sans-serif;
+color: #ddd;
+background-image: url(../biblioteca.avif);
+background-size: cover;
+}
+
+.header{
+    color: azure;
+    display: flow-root;
+    background-color:rgba(0,0,0,0.8);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.filtro{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    border-radius: 1em;
+    margin-right: 1em;
+    width: 5em;
+    margin-left: 1em;
+    color: white;
+    border-color: rgb(91, 163, 122);
+    background-color: rgba(38, 124, 150, 0.5);
+   
+
+}
+
+
+
+section, div  {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  padding: 3rem;
+  margin: 3rem;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 1rem;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+label , p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 2rem;
+}
+
+th, td {
+    border: 2px unset #ffffff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+th {
+    background-color: rgba(38, 124, 150, 0.658);
+    font-family: 'Lobster', Arial, sans-serif;
+    
+}
+
+a{
+    color: rgb(38, 123, 163);
+} 
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.button.deshabilitado {
+    background-color: #666;  /* Cambia esto al color que desees */
+    color: #ccc;            /* Cambia esto al color que desees */
+    cursor: not-allowed;
+  }
